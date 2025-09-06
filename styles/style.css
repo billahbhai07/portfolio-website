@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.logo{
+    color: rgba(253, 110, 10, 1);
+}
+.logo-title{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar > ul >li{
+    list-style: none;
+    color: rgba(71, 71, 71, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar > ul >li > a{
+    color: black;
+    text-decoration:none;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+    align-items: center;
+        font-weight: 600;
+}
+.btn{
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    background-color: rgba(253, 110, 10, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
