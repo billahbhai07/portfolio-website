@@ -3,14 +3,19 @@
     padding: 0;
 }
 header{
-    width: 80%;
-    margin: 0 auto;
+    background-image:url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 20px;
+
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 5px;
+    width: 80%;
+    margin: 0 auto;
 }
 .logo{
     color: rgba(253, 110, 10, 1);
@@ -34,13 +39,15 @@ header{
 .navbar > ul >li > a{
     color: black;
     text-decoration:none;
+    margin-bottom: 50px;
 }
 .nav-item{
     display: flex;
     flex-direction: row;
     gap: 51px;
     align-items: center;
-        font-weight: 600;
+    font-weight: 600;
+
 }
 .btn{
     border-radius: 5px;
@@ -49,4 +56,55 @@ header{
     background-color: rgba(253, 110, 10, 1);
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
+    border: none;
+    margin-top: 25px;
+}
+/* banner style start */
+.banner-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.banner-haddinng{
+    color: rgba(71, 71, 71, 1);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-h{
+    color: rgba(24, 24, 24, 1);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-pre{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bannner-bbtn{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgba(253, 110, 10, 1);
+    border: none;
+}
+.bannner-btn{
+    width: 160px;
+    height: 64px;
+    box-sizing: border-box;
+    border: 1px solid rgba(253, 110, 10, 1);
+    border-radius: 5px;
 }
