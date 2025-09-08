@@ -13,9 +13,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
+
     width: 80%;
-    /* margin: 20px auto 0px; */
+    margin: 20px auto 0px;
 }
 .logo{
     color: rgba(253, 110, 10, 1);
