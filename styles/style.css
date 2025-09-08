@@ -149,17 +149,15 @@ header{
     height: 48px;
 }
 .about-preragraph{
-    /* I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata. */
-width: 827px;
-height: 120px;
-color: rgba(117, 117, 117, 1);
-
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    width: 827px;
+    height: 120px;
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .info-container{
     display: flex;
@@ -172,3 +170,59 @@ text-align: center;
     text-align: center;
     gap: 50px;
 }
+/* about section end */
+
+/* card section start */
+.card-header{
+    width: 167px;
+    height: 48px;
+    color: rgba(24, 24, 24, 1);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-praragraph{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 909px;
+    height: 90px;
+    margin: 30px 0px 50px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+.card-container1{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 24px;
+}
+.card > img{
+    margin: 20px;
+}
+.card >h3 {
+    padding: 20px 20px;
+    color:  #9b9999;
+}
+
+.card > p {
+    padding: 0px 20px;
+    color:  #9b9999;
+}
+/* card section end */
